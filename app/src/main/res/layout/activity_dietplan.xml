@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/mainactivitybg"
+    android:orientation="vertical"
+    tools:context=".dietplan">
+    <TextView
+        android:textSize="30dp"
+        android:textStyle="normal|bold|italic"
+        android:textColor="#fff"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="140dp"
+        android:layout_marginTop="20dp"
+        android:text="Diet Plan"
+        android:layout_centerHorizontal="true"/>
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="80dp"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="50dp"
+        android:src="@drawable/applogo"
+        android:layout_centerHorizontal="true"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/bmrdisplay"
+        android:layout_marginTop="190dp"
+        android:textSize="19dp"
+        android:textStyle="bold|normal"
+        android:layout_marginLeft="10dp"
+        android:textColor="@color/cardview_light_background"
+        android:text="Your BMI is :"></TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/bmicat"
+        android:layout_marginTop="20dp"
+        android:textSize="19dp"
+        android:textStyle="bold|normal"
+        android:layout_marginLeft="10dp"
+        android:textColor="@color/cardview_light_background"
+        android:text="Your BMI Category is :"></TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/caloriesday"
+        android:textSize="19dp"
+        android:layout_marginTop="20dp"
+        android:textStyle="bold|normal"
+        android:layout_marginLeft="10dp"
+        android:textColor="@color/cardview_light_background"
+        android:text="Calories required per day is :"></TextView>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="100dp"
+            android:textAlignment="center"
+            android:background="@drawable/borderbutton"
+            android:text="Get Diet Plan "
+            android:textStyle="bold|normal"
+            android:textSize="15dp"
+            android:id="@+id/get_owndietplan"
+            android:textColor="@color/cardview_light_background"></Button>
+
+    </LinearLayout>
+
+
+</LinearLayout>

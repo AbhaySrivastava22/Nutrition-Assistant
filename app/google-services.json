@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "685797810988",
+    "firebase_url": "https://nutritionassistant-2ca86.firebaseio.com",
+    "project_id": "nutritionassistant-2ca86",
+    "storage_bucket": "nutritionassistant-2ca86.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:685797810988:android:6acbacf4e7a7d9e9bcc289",
+        "android_client_info": {
+          "package_name": "com.example.nutritionassistant"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "685797810988-0qn7c000hhkdj38fncj500g5t4a0sbkk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.nutritionassistant",
+            "certificate_hash": "1a4c901414b7302a3ef5fe29fbcca5f0cdfbe6c5"
+          }
+        },
+        {
+          "client_id": "685797810988-r3cmhotp5vg8u1774jihoji6i4grvjeb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAMd0U3wrxb8syO2eSteCdtkF_75y28uKI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "685797810988-r3cmhotp5vg8u1774jihoji6i4grvjeb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

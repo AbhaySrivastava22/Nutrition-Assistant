@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt"
+    android:orientation="vertical"
+    android:background="@drawable/mainactivitybg"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_centerInParent="true"
+    android:layout_centerHorizontal="true"
+    android:layout_centerVertical="true">
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="350dp"
+        android:src="@drawable/applogo"
+        android:layout_centerHorizontal="true"/>
+    <TextView
+        android:textSize="25dp"
+        android:textStyle="normal|bold|italic"
+        android:textColor="@color/cardview_light_background"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="450dp"
+        android:text="Nutrition Assistant"
+        android:layout_centerHorizontal="true"/>
+    <Button
+        android:textSize="16dp"
+        android:textStyle="normal|bold|italic"
+        android:textColor="@color/cardview_light_background"
+        android:id="@+id/logincall"
+        android:background="@drawable/border"
+        android:clickable="true"
+        android:layout_width="176dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="110dp"
+        android:layout_marginTop="520dp"
+        android:text="Login"
+        android:layout_centerHorizontal="true"/>
+    <Button
+        android:textSize="16dp"
+        android:textStyle="normal|bold|italic"
+        android:textColor="@color/cardview_light_background"
+        android:id="@+id/signupcall"
+        android:background="@drawable/border"
+        android:clickable="true"
+        android:layout_width="176dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="110dp"
+        android:layout_marginTop="580dp"
+        android:text="SignUp"
+        android:layout_centerHorizontal="true"/>
+</RelativeLayout>

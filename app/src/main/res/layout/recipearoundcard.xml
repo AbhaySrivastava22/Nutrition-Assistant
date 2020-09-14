@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/cardstyle"
+    android:layout_marginTop="10dp"
+    android:layout_height="wrap_content">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_marginTop="2dp"
+        android:layout_marginLeft="10dp"
+        android:text="Name of Recipe:"
+        android:id="@+id/recipearoundname"
+        android:textColor="@color/cardview_dark_background"
+        android:textSize="16dp"
+        android:layout_height="wrap_content">
+
+    </TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_marginTop="2dp"
+        android:layout_marginLeft="10dp"
+        android:text="Preparation Time:"
+        android:id="@+id/recipearoundtime"
+        android:textColor="@color/cardview_dark_background"
+        android:textSize="16dp"
+        android:layout_height="wrap_content">
+
+    </TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_marginTop="2dp"
+        android:layout_marginLeft="10dp"
+        android:text="Total Calories:"
+        android:id="@+id/recipearoundcalories"
+        android:textColor="@color/cardview_dark_background"
+        android:textSize="16dp"
+        android:layout_height="wrap_content">
+    </TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_marginTop="2dp"
+        android:layout_marginLeft="10dp"
+        android:text="Ingredients:"
+        android:id="@+id/recipearoundingredient"
+        android:textColor="@color/cardview_dark_background"
+        android:textSize="16dp"
+        android:layout_height="wrap_content">
+    </TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_marginTop="2dp"
+        android:layout_marginLeft="10dp"
+        android:text="Steps of Recipie:"
+        android:id="@+id/recipearoundsteps"
+        android:textColor="@color/cardview_dark_background"
+        android:textSize="16dp"
+        android:layout_height="wrap_content">
+    </TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_marginTop="2dp"
+        android:layout_marginLeft="10dp"
+        android:text="Difficulty Level:"
+        android:id="@+id/recipearoundlevel"
+        android:textColor="@color/cardview_dark_background"
+        android:textSize="16dp"
+        android:layout_height="wrap_content">
+    </TextView>
+
+</LinearLayout>

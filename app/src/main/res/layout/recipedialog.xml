@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="140dp"
+        android:background="@drawable/dialog"
+        android:orientation="vertical"
+        android:elevation="@dimen/cardview_default_elevation">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@drawable/dialog"
+            android:text="Add Your Recipe"
+            android:textAlignment="center"
+            android:id="@+id/addrecipe"
+            android:textColor="@color/cardview_light_background"
+            android:textStyle="italic|bold"
+            android:textSize="20dp"
+            android:layout_marginTop="10dp"></Button>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@drawable/dialog"
+            android:text="My Recipes"
+            android:textAlignment="center"
+            android:id="@+id/userrecipe"
+            android:textColor="@color/cardview_light_background"
+            android:textStyle="italic|bold"
+            android:textSize="20dp"></Button>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@drawable/dialog"
+            android:text="Search Recipes Around the world"
+            android:textAlignment="center"
+            android:textColor="@color/cardview_light_background"
+            android:textStyle="italic|bold"
+            android:textSize="20dp"
+            android:id="@+id/recipesaroundtheworld"></Button>
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="@drawable/cardstyle"
+    android:layout_marginTop="10dp"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_marginTop="2dp"
+        android:layout_marginLeft="10dp"
+        android:text="Name of Recipe:"
+        android:id="@+id/cardrecipename"
+        android:textColor="@color/cardview_dark_background"
+        android:textSize="16dp"
+        android:layout_height="wrap_content">
+
+    </TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_marginTop="2dp"
+        android:layout_marginLeft="10dp"
+        android:text="Total Time:"
+        android:id="@+id/cardrecipetime"
+        android:textColor="@color/cardview_dark_background"
+        android:textSize="16dp"
+        android:layout_height="wrap_content">
+
+    </TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_marginTop="2dp"
+        android:layout_marginLeft="10dp"
+        android:text="Ingredients:"
+        android:id="@+id/recipeingredient"
+        android:textColor="@color/cardview_dark_background"
+        android:textSize="16dp"
+        android:layout_height="wrap_content">
+    </TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_marginTop="2dp"
+        android:layout_marginLeft="10dp"
+        android:text="Steps of Recipie:"
+        android:id="@+id/recipesteps"
+        android:textColor="@color/cardview_dark_background"
+        android:textSize="16dp"
+        android:layout_height="wrap_content">
+    </TextView>
+
+</LinearLayout>

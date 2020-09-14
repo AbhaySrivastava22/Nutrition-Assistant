@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:orientation="vertical"
+        android:background="@drawable/dialog"
+
+        android:elevation="@dimen/cardview_default_elevation">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Set Your Profile Image:"
+            android:textSize="28dp"
+            android:layout_marginLeft="10dp"
+            android:textStyle="bold|italic"
+            android:textColor="@color/cardview_light_background"></TextView>
+
+      <ImageView
+          android:layout_width="250dp"
+          android:layout_gravity="center"
+          android:layout_height="250dp"
+          android:background="@drawable/borderbutton"
+          android:id="@+id/image">
+
+      </ImageView>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_marginTop="20dp">
+
+            <Button
+                android:id="@+id/select"
+                android:layout_width="80dp"
+                android:layout_height="30dp"
+                android:layout_gravity="right"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/borderbutton"
+                android:elevation="10dp"
+                android:text="Select"
+                android:textColor="@color/cardview_light_background"
+                android:textSize="19dp"
+                android:textStyle="bold"></Button>
+
+            <Button
+                android:id="@+id/upload"
+                android:layout_width="80dp"
+                android:layout_height="30dp"
+                android:layout_gravity="right"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/borderbutton"
+                android:elevation="10dp"
+                android:text="Upload"
+                android:textColor="@color/cardview_light_background"
+                android:textSize="19dp"
+                android:textStyle="bold"></Button>
+        </LinearLayout>
+
+    </LinearLayout>
+</RelativeLayout>
